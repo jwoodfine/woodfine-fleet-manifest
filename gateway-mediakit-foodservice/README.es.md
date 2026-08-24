@@ -13,11 +13,11 @@
 ---
 
 ## I. MANDATO OPERACIONAL
-Este directorio sirve como catálogo de despliegue para la puerta de enlace del negocio de servicios de alimentación en `foodservice.woodfinegroup.com`. La instancia se ejecuta como `local-foodservice` en la VM del espacio de trabajo, sirviendo el negocio de servicios de alimentación de Woodfine Management Corp. mediante el motor `app-mediakit-foodservice` en el puerto 9103.
+Este directorio sirve como catálogo de despliegue para la puerta de enlace del negocio de servicios de alimentación en `foodservice.woodfinegroup.com`. La instancia se ejecuta como `local-woodfine-foodservice` en la VM del espacio de trabajo, sirviendo el negocio de servicios de alimentación de Woodfine Management Corp. mediante el motor `bread/` (Python/FastAPI, `project-foodservice/bread`) en el puerto 9099.
 
 **Archivo:** `project-foodservice` (Archivo Totebox en `~/Foundry/clones/project-foodservice/`)
-**Motor:** `app-mediakit-foodservice` (crate en `pointsav/pointsav-monorepo`)
-**ID de Módulo:** `woodfine`
+**Motor:** `bread/` (Python FastAPI, en `project-foodservice`)
+**ID de Módulo:** `foodservice`
 
 ## II. DECLARACIÓN DEL MARCO SOBERANO
 Para cumplir con SOC 3 y DARP, este nodo está estructurado para operar en arquitectura físicamente aislada, propiedad del Cliente. Aplica estrictamente el Protocolo de Datos Soberanos, garantizando cero filtración a análisis de nube de terceros o modelos de inteligencia extranjeros.

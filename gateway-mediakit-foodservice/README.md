@@ -13,11 +13,11 @@
 ---
 
 ## I. OPERATIONAL MANDATE
-This directory serves as the deployment catalog for the foodservice business gateway at `foodservice.woodfinegroup.com`. The instance runs as `local-foodservice` on the workspace VM, serving the Woodfine Management Corp. foodservice vertical via the `app-mediakit-foodservice` engine on port 9103.
+This directory serves as the deployment catalog for the foodservice business gateway at `foodservice.woodfinegroup.com`. The instance runs as `local-woodfine-foodservice` on the workspace VM, serving the Woodfine Management Corp. foodservice vertical via the `bread/` engine (Python/FastAPI, `project-foodservice/bread`) on port 9099.
 
 **Archive:** `project-foodservice` (Totebox Archive at `~/Foundry/clones/project-foodservice/`)
-**Engine:** `app-mediakit-foodservice` (crate in `pointsav/pointsav-monorepo`)
-**Module ID:** `woodfine`
+**Engine:** `bread/` (Python FastAPI, in `project-foodservice`)
+**Module ID:** `foodservice`
 
 ## II. SOVEREIGN FRAMEWORK DECLARATION
 To enforce SOC 3 and DARP compliance, this node is structured to operate on physically isolated, Customer-owned architecture. It strictly enforces the Sovereign Data Protocol, guaranteeing zero leakage to third-party cloud analytics or foreign intelligence models.
